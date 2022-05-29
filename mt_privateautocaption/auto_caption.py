@@ -19,7 +19,7 @@ async def caption(client, message: Message):
     await message.edit(f"<b>{kopp.file_name}</b>\n\n{CAPTION_TEXT}",
           reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{URL_LINK}")
+              InlineKeyboardButton(f"{New Movies}", url=f"{URL_LINK}")
               ]]
         ))
 
